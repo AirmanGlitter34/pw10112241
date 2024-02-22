@@ -1,12 +1,36 @@
 body{
     border: 1px solid red;
-    font-size: 24px; /*1em*/
+    font-size: 16px; /*1em*/
     margin: -0px auto;
     max-width: 1024px
 }
 header{
     background: white;
 }
+header nav{
+    border-radius: 5px;
+    background-color: blue;
+    margin: 0px auto;
+    width: 99%;
+}
+header nav form{
+    float: right;
+    margin-right: 20px;
+    margin-top: -33px;;
+}
+header nav form input{
+    border-radius: 5px;
+}
+header nav form input [ type="submit"]{
+    border-radius: 5px;
+    border: 1px solid green;
+}
+header nav ul li{
+    color:white;
+    display: inline-block;
+    margin-right: 20;
+}
+
 #logo{
     margin: -150px 0px 0px 0px;
 }
