@@ -10,6 +10,24 @@ header input{
     margin-top: 15px;
     position: relative;
 }
+header nav{
+    border: 1 px solid red;
+    margin-left: 220px;
+}
+header nav ul li{
+    border-bottom: 1px solid gray;
+    color: gray;
+    display: inline-block;
+    font-size: 1,8em;
+    margin-right: 15px;
+    padding-bottom: 2px;
+
+   /* text-decoration: underline;*/
+}
+#granthams {
+    margin-left: 25px;
+    margin-top: 25px;
+}
 #paint{
     float:right;
 }
