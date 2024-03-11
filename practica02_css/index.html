@@ -1,110 +1,135 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 02 CSS</title>
-    <link rel="stylesheet" href="css/estilos.css">      
+    <link rel="stylesheet" href="./css/Estilos.css">
 </head>
 <body>
     <header>
-        <!-- arriba de todo va una imagen (linea de colores) -->
-        <img src="img/banner.png" alt="Linea">
-        <!-- imagen de granthams -->
-        <img src="img/granthams.png" alt=" granthams">
-        <!-- mancha de pintura -->
-        <img src="img/paint.png" alt="Pintura">
-        <!-- cuadro de busqueda 
-        cuadro de texto   que se ponga search   tamaño del rectangulo-->
-        <input type="search" placeholder="Search" size="25">
-        <!-- menu -->
+        <img src="./img/banner.png" alt="">
+        <img src="./img/granthams.png" alt="", id="granthams">
+        <img src="./img/paint.png" alt="", id="paint">
+        <input type="search" placeholder="Search">
         <nav>
             <ul>
                 <li>Print</li>
                 <li>Copy</li>
                 <li>Finishing</li>
                 <li>Desing</li>
-                <li>Exhibition</li>
+                <li>Exbhition</li>
             </ul>
         </nav>
     </header>
-    <!-- 1ra seccion -->
-    <section>
-        <!-- la imagen verde esta dentro de la seccion pero no adentro del article -->
-        <article>
-            <!-- imagen de venta -->
-            <img src="img/slide.jpg" alt="Slide">
+    <section id = "primeraSeccion">
+        <article id="secc01art01">
+            <img src="./img/slide.jpg" alt="">
         </article>
-        <article>
-            <!-- Texto -->
-            We can offter 
-            <!-- lista -->
+        <article id="secc01art02">
+            <span class="colorrosa letragrande nito">We can offer...</span> 
             <ul>
-                <li>Highlt Competitive Prices</li>
+                <li>Highly Competitive Prices</li>
                 <li>Variable Data</li>
                 <li>Fast Turnaround</li>
-                <li>Rapid Rorder Service</li>
+                <li>Rapid Re-order Service</li>
                 <li>Wide Product Range</li>
                 <li>Low Cost Delivery</li>
-                <li>Monthly Offfers</li>
-                <li>Great Customers Service</li>
+                <li>Monthly Offers</li>
+                <li>Great Customer Service</li>
             </ul>
         </article>
-        <!-- imagen de ofertas -->
-        <img src="img/bg_offer.png" alt="Ofertas">
+        <img src="./img/bg_offer.png" alt="", id="bgoffer">
     </section>
-    <!-- seccion para numero de telefono -->
-    <section>
+    <section id="segundaSeccion">
         <article>
-            01772 250207
+            <span class="colorrosa letramediana nito">
+                01 772 250207
+            </span>
         </article>
     </section>
-    <section>
+    <section id="terceraSeccion">
         <article>
-                <!-- imagen de cerdito -->
-              <img src="img/cerdito.png" alt="Cerdito"> Save this Spring
-              <!-- salto de linea -->
-               <br>
-              <!-- lorem para poner texto ramdom -->
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem soluta quas corporis iusto doloremque, minima veniam similique magnam delectus facilis impedit, alias, fuga fugit incidunt quos quam vitae vel adipisci?
-              <!-- separador de parrafo -->
-              <p>
-              <!-- texto -->
-              Find out more...
-        </article>
-        <article>
-            <!-- imagen de la hoja -->
-            <img src="img/hoja.png" alt="Hoja"> Eco Frienly
-            <!-- salto de linea -->
+            <img src="./img/cerdito.png" alt="">
+            <span class="colorrosa nito">
+                Save this Spring
+            </span>
             <br>
-            <!-- lorem -->
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit dicta enim pariatur, vero sunt debitis, asperiores aliquam labore dolorem atque voluptas neque maxime eaque fugiat nulla assumenda voluptates tempore aspernatur!
-
-        </article>
-        <article>
-            <!-- imagen new -->
-            <img src="img/new.png" alt="Nuevo"> Upload your life
-            <!-- salto de linea -->
-            <br>
-            <!-- lorem -->
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit illo suscipit illum doloribus omnis consectetur repellat debitis. Quam ducimus eligendi voluptate. Necessitatibus vero voluptatem aspernatur quisquam quod debitis quis eius.
-            <!-- salto de parrafo -->
+            Fabulous discounts on canvas's and roll up's as well 
+            as many other offers.
             <p></p>
-            <!-- texto -->
-            Upload your File Now...
+            <span class="colorrosa nito">
+                Find out more
+            </span>
         </article>
         <article>
-            <!-- texto -->
-            Stay in touch
-            <!-- salto de linea -->
+            <img src="./img/hoja.png" alt="" class="">
+            <span class="colorverde nito">
+                ECO friendly
+            </span>
             <br>
-            <!-- texto -->
-            Joinb our maling list today
-            <!-- cuadro para poner email -->
+            ECO Friendly Materials used in our production process.<br>
+            Recycled papers and pape from Sustainable Forest (including FSC papers)
+            are available across our range of Printing Services.
+        </article>
+        <article>
+            <img src="./img/new.png" alt="">
+            <span class="colorazul nito">
+                Upload your file
+            </span>
+            <br>
+            Making it easy to order your printing today. Our upload facility
+            enables you send your files directly to us. Use the notes section to
+            inform us of your order, the sit back and wait for a member of Our
+            team to contact you.
+            <p></p>
+            <span class="colorazul">
+                Upload Your File Now
+            </span>
+        </article>
+        <article id="secc03art04">
+            <span class="colorrosa letramediana">
+                Stay in touch
+            </span>
+            <br>
+            join our mailing list today <br>
             <input type="email" placeholder="Email goes here">
-            <!-- boton para enviar -->
-            <input type="button" value="Send">
+            <input type="button" value="send">
         </article>
     </section>
+    <footer>
+        <section>
+            <article>
+                <span class="colorblanco">
+                    Copyright &copy; 2014 Granthams Ltd | All Rights Reserved | Credits
+                </span>
+                <p></p>
+                <span class="colorblanco">
+                    Home | Print | Copy | Finishing | Design | Information | Contact us
+                </span>
+                <p></p>
+                <span class="colorblanco">
+                    Privacy Policy | Terms and Conditions | All Prices EXCLUDE VAT
+                </span>
+            </article>
+            <article>
+                <span class="colorblanco centrado">
+                    Other Granthams Websites:
+                </span>
+                <p></p>
+                <span class="colorblanco centrado">
+                    Granthams | ArtDiscount | GraphicDiscount | PosterPrints
+                </span>
+            </article>
+            <article id="fart03">
+                <span class="colorblanco textoConBordes">
+                    Valid HTML5
+                </span>
+            </article>
+            <img src="./img/pregunta.png" alt="" id="pregunta">
+            <img src="./img/icon_facebook.png" alt="" id="facebook">
+            <img src="./img/icon_twitter.png" alt="" id="twitter">
+            <img src="./img/image-right.png" alt="" id="monitos">
+    </footer>
 </body>
 </html>
