@@ -1,0 +1,28 @@
+1.- install node.js and xampp for mysql and apache
+    when  it's installed, use next command in cmd:
+    cd c:\xampp\mysql\bin
+    mysql -u root -p
+
+    when accessed to MySQL, use the next script:
+    create database pwdata;
+    show databases;
+    use pwdata;
+    create table Clientes(ID int, Nombre varchar(150), Apellido varchar(150), Direccion varchar(150), Telefono varchar(15), RFC varchar(18), CURP varchar(18), CP varchar(5));
+    show tables;
+    insert into clientes values(1,'John', 'Doe','Orlando, Florida','1234567890', '1234567890123','123456789012345678', '12345');
+    select * from clientes;
+    quit
+
+2.- when the database is created, access the backend folder of the project and enter the following commands:
+    npm init -y
+    npm install express --save
+    npm install mysql --save
+    npm install cors --save
+
+3.- Configure app.js
+
+4.- Start app.js with following command: 
+    node app.js
+
+5.- Following command automatically detects the updated code:
+    node --watch app.js
